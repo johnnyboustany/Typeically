@@ -1,8 +1,8 @@
 # README
 
-### Typeically Instructions:
+## Typeically Instructions:
 
-#    To run the Typeically program:
+###    To run the Typeically program:
     
         1. Download the CORS UnBlock extension (https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino?hl=en). Activate it by making sure the yellow light on the bug icon is visible.
 
@@ -15,7 +15,7 @@
             cd backend
             ./run --gui
 
-#     To test the Typeically program:
+###     To test the Typeically program:
     
         To run the Junit and Selenium tests:
             cd backend
