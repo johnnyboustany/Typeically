@@ -1,0 +1,545 @@
+@keyframes flash {
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.input {
+    opacity: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    color: white;
+}
+
+.caret {
+    animation-name: flash;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    transition: 0.12s;
+}
+
+.caret {
+    position: absolute;
+    display: inline;
+}
+
+.mb-2 {
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    width: max-content;
+}
+
+
+#load-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #27334d;
+    gap: 20px;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    background-color: #27334d;
+    gap: 0px;
+    color: #323232;
+    min-height: 10vh;
+}
+
+#load-page button {
+    font-size: 25px;
+    margin: auto;
+}
+
+#load-page button:hover {
+    font-size: 25.2px;
+    margin: auto;
+}
+
+.t1 {
+    font-family: sans-serif;
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: fit-content;
+    margin: auto;
+    color: #323232;
+    text-shadow:
+            -.8px -1.25px 0 white,
+            -2px -2px 0 #cfcfcf,
+            -3px -3px 0 #9c9c9c,
+            -4px -4px 0 #707070,
+            -4.3px -4.3px 0 #575757,
+            .5px -.5px 0 #a1a1a1,
+            -1px 1px 0 #a1a1a1,
+            1px 1px 0 #a1a1a1;
+    animation: fadeIn linear .6s;
+    -webkit-animation: fadeIn linear .6s;
+    -moz-animation: fadeIn linear .6s;
+    -o-animation: fadeIn linear .6s;
+    -ms-animation: fadeIn linear .6s;
+}
+
+.t2 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0 0 0;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    background:  #36476b;
+    padding: 5px;
+    border-radius: 7px;
+    animation: fadeIn linear .6s;
+    -webkit-animation: fadeIn linear .6s;
+    -moz-animation: fadeIn linear .6s;
+    -o-animation: fadeIn linear .6s;
+    -ms-animation: fadeIn linear .6s;
+}
+
+.button {
+    flex:.15;
+    color: #a1a1a1;
+    background-color: #595959;
+    padding: 3px;
+    border-radius: 3px;
+    width: 70px;
+    height: 40px;
+    font-size: 18px
+}
+
+
+.barButton {
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    width: 0;
+    margin: 1.5em auto;
+    border:0px;
+    animation: searchmate .3s steps(75, end) forwards,
+    fadeIn .5s linear
+}
+
+.search {
+    flex:.83;
+    color: #a1a1a1;
+    background-color: #525252;
+    border-radius: 7px;
+    padding: 6px;
+    font-size: 20px;
+    animation: searchmate .9s steps(75, end) forwards
+
+}
+
+.lbInputs {
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    width: 30%;
+    margin: 1em auto;
+    border:0px
+}
+
+.search2 {
+
+    flex: .83;
+    color: #a1a1a1;
+    background-color: #525252;
+    border-radius: 7px;
+    padding: 6px;
+    font-size: 20px;
+    border: 1.5px solid #27334d;
+    outline:none;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid white;
+}
+tr:hover {background-color: #02067a;}
+
+
+th {
+    background-color: #2694bd;
+    color: white;
+}
+
+.invalid {
+    border: 1.5px solid #e02626;
+    transition: .2s steps(20, end);
+}
+
+.valid {
+    border: 1.5px solid lightgreen;
+    transition: .2s steps(20, end);
+}
+
+
+.button2 {
+    color: #a1a1a1;
+    background-color: #595959;
+    padding: 3px;
+    border-radius: 3px;
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+    animation: fadeIn linear 1.25s;
+}
+
+#wpmLabel {
+    font-size: 32px;
+    font-family: Helvetica, monospace;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+#accuracyLabel {
+    font-size: 32px;
+    font-family: Helvetica, monospace;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+#durationLabel {
+    font-size: 32px;
+    font-family: Helvetica, monospace;
+    color: orange;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+
+.typed-out{
+    color: #939393;
+    overflow: hidden;
+    border-right: .55em solid pink;
+    white-space: nowrap;
+    font-size: 1.6em;
+    font-family: Helvetica, monospace;
+
+    animation: typing 1s steps(50, end) forwards,
+    fadeIn linear 1.25s;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.typed-out2{
+    color: #e36f6f;
+    overflow: hidden;
+    border-right: .4em solid red;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    font-family: Helvetica, monospace;
+    margin: auto;
+    animation: typing 1s steps(200, end) forwards,
+    fadeIn linear 1.25s;
+    text-align: center;
+}
+
+
+.search2 {
+    overflow: hidden;
+    width: 0px;
+    border-radius: 6px;
+    position: relative;
+    animation: fadeIn 1.25s, searchmate .9s steps(75, end) forwards;
+
+}
+
+
+#albumArt {
+    max-height:500px;
+    position: fixed;
+    left: 16.5vh;
+    top: 22.5vh;
+}
+
+#image {
+    animation: fadeIn .65s forwards;
+    box-shadow: 0 0 0 9999px #000000b0;
+}
+
+#caps-alert {
+    position: fixed;
+    left: 60vh;
+    top: 65vh;
+
+    font-size: 30px;
+    font-family: monospace;
+    padding: 35px;
+    border-radius: 7px;
+    border: 2px solid #999999;
+    background:rgba(35, 46, 69,0.75);
+    backdrop-filter: blur(2.5px);
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.5);
+    animation: fadeIn .7s forwards;
+}
+
+#tell-esc {
+    position: absolute;
+    left: 0%;
+    top: 15%;
+
+    height: 200%;
+    width: 100%;
+    font-size: 30px;
+    font-family: monospace;
+    padding: 200px;
+    border-radius: 7px;
+    border: 2px solid #999999;
+    background:rgba(35, 46, 69,0.8);
+    backdrop-filter: blur(2.5px);
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.5);
+    animation: fadeIn .7s forwards;
+}
+
+#about-popup {
+    position: absolute;
+    left: 20%;
+    top: 14%;
+    padding: 30px;
+    animation: fadeIn .7s forwards;
+    border: 2px solid white;
+    max-width: 60%;
+    background:rgba(35, 46, 69,1);
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+
+.about-header {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia;
+}
+
+.about-para {
+    color: #A9A9A9;
+    font-size: 18.3px;
+    font-family: Georgia;
+}
+
+#popup {
+    alignment: center;
+    top:30%;
+    background: #2b3957;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin:auto;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+
+#popup1 {
+    alignment: center;
+    background:  #2b3957;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin:auto;
+    border-radius: 50px;
+    border: 2px solid white;
+    animation: fadeIn linear .8s;
+    -webkit-animation: fadeIn linear .8s;
+    -moz-animation: fadeIn linear .8s;
+    -o-animation: fadeIn linear .8s;
+    -ms-animation: fadeIn linear .8s;
+    padding: 5px;
+}
+
+#about-img {
+    position: fixed;
+    left: 0%;
+    bottom: .5%;
+    max-height: 45px;
+}
+.res {
+    display: none;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.res:hover {
+    background: #1e273b;
+}
+
+.top {
+    padding: 0;
+    border-radius: 7px;
+}
+
+.top:hover {
+    background: #1e273b;
+}
+
+#1:hover {
+    font-size: x-large;
+}
+
+
+@keyframes searchmate {
+    from {width: 0px}
+    to {width: 375px}
+}
+
+@keyframes typing {
+    from { width: 0}
+    to { width: 20.5em; border-right: 0em solid white }
+}
+
+@keyframes typingT1{
+    from { width: 0}
+    to { width: 23%; border-right: 0em solid white }
+}
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+
+#censor-label {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-family: Helvetica, monospace;
+}
+
+.switch {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+#shorten-label {
+    position: absolute;
+    top: 70px;
+    right: 5px;
+    font-family: Helvetica, monospace;
+}
+
+.switch2 {
+    position: absolute;
+    right: 20px;
+    top: 95px;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Hide default HTML checkbox */
+.switch2 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #7395de;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #7395de;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 8px;
+}
+
+.slider.round:before {
+    border-radius: 8px;
+}
