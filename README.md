@@ -3,7 +3,7 @@
  This is my CSCI0320 Software Engineering final project that I completed with 4 classmates. 
  
  I specifically worked on:
-- the backend and frontend aspects of the leaderboard, including setting up APIs to ensure the leaderboard is updated
+- the backend and frontend (React) aspects of the leaderboard, including setting up APIs to ensure the leaderboard is updated
 - testing the leaderboard database from the backend by writing the JUnit tests
 - the API handler to send the list of newly-released songs from Spotify to the frontend
 - the frontend “choose a newly-released song” feature which allows users to choose a recent song
