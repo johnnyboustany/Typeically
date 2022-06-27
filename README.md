@@ -1,8 +1,5 @@
 #  Typeically README
 
-Read the [Specifications](https://docs.google.com/document/d/1kAGzs_0YeLkAXbZUFNlNNj2SrcmW8tcc3CuH0Uy6cQ8/edit#heading=h.iiwoysfq2rkn)
- document to learn more about Typeically.
-
  This is my CSCI0320 Software Engineering final project that I completed with 4 classmates. 
  
  I specifically worked on:
@@ -12,6 +9,9 @@ Read the [Specifications](https://docs.google.com/document/d/1kAGzs_0YeLkAXbZUFN
 - the frontend “choose a newly-released song” feature which allows userrs to choose a recent song
 - testing all aspects of the frontend with Selenium
 
+Read the [Specifications](https://docs.google.com/document/d/1kAGzs_0YeLkAXbZUFNlNNj2SrcmW8tcc3CuH0Uy6cQ8/edit#heading=h.iiwoysfq2rkn)
+ document to learn more about Typeically.
+ 
 ## Instructions:
 ### To run the Typeically program:
     
