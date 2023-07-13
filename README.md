@@ -12,7 +12,11 @@
 
 Read the [Specifications](https://docs.google.com/document/d/1kAGzs_0YeLkAXbZUFNlNNj2SrcmW8tcc3CuH0Uy6cQ8/edit#heading=h.iiwoysfq2rkn)
  document to learn more about Typeically.
- 
+
+ ![A screenshot of the application in use on a mac](typeically.png)
+ ![A screenshot of the application in use on a mac](type-demo.gif)
+ ![A screenshot of the application in use on a mac](type-demo2.gif)
+
 ## Instructions:
 ### To run the Typeically program:
     
