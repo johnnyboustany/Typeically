@@ -17,8 +17,7 @@ Typeically is a web-based typing app that allows you to find your favorite songs
 * [Usage Instructions](#usage-instructions)
 * [Project Status](#project-status)
 * [Conclusion](#conclusion)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
+* [Contributions](#contributions)
 <!-- * [License](#license) -->
 
 ## Technologies Used
@@ -95,12 +94,20 @@ Project is: Complete (as of May 2022)
 
 I learned a lot about the software engineering cycle in general and realized how much I enjoyed working with both frontend and backend concurrently.
 
+## Contributions
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+ I specifically worked on:
+- the backend and frontend (React) aspects of the leaderboard, including setting up APIs to ensure the leaderboard is updated
+- testing the leaderboard database from the backend by writing the JUnit tests
+- the API handler to send the list of newly-released songs from Spotify to the frontend
+- the frontend “choose a newly-released song” feature which allows users to choose a recent song
+- testing all aspects of the frontend with Selenium
+- helping my group members integrate their parts and making sure merges go smoothly
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+My group members: 
+
+@coltonrusch
+@mohammedakel
+@JAnagonye
+@glet2024
+@mstephe7
