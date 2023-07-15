@@ -1,11 +1,13 @@
 # Typeically
-Typeically is a web-based typing app that allows you to find your favorite songs and type along to the lyrics! I created & developed this app alongside four classmates for my Spring 2022 Software Engineering course.
-
-*The web application is no longer live as the course has finished since. However, demos are included below.*
 
 <p align="center">
     <img src="./assets/typeically.png" alt="" width="1000">
 </p>
+
+Typeically is a web-based typing app that allows you to find your favorite songs and type along to the lyrics! I created & developed this app alongside four classmates for my Spring 2022 Software Engineering course.
+
+*The web application is no longer live as the course has finished since. However, demos are included below.*
+
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
