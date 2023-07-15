@@ -10,10 +10,6 @@ import java.net.http.HttpResponse;
 import java.time.Duration;
 import java.util.List;
 
-/**
- * Helper class that runs a demo to see if api works.
- * See README to learn how to use the commands.
- */
 public class VerifyAPI implements REPLable {
   // private variable declarations
 
