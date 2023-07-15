@@ -3,10 +3,13 @@ Typeically is a web-based typing app that allows you to find your favorite songs
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
+* [General Info](#general-info)
 * [Features](#features)
+* [Design Iterations](#design-iterations)
+* [Testing](#testing)
 * [Setup & Usage](#setup-&-usage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
+* [Conclusion](#conclusion)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 <!-- * [License](#license) -->
@@ -14,9 +17,13 @@ Typeically is a web-based typing app that allows you to find your favorite songs
 ## Technologies Used
 Java, JavaScript, React, SQL
 
+## General Info
+
+This project aims to provide entertainment in the form of a typing game that allows you to type along to user selected lyrics. There is currently no application that allows users to type along to lyrics of a song that they inputted, and so our project aims to fulfill the want for such an application.
+
 ## Features
 
-This web application aims to provide entertainment in the form of a typing game that allows you to type along to user selected lyrics. There is currently no application that allows users to type along to lyrics of a song that they inputted, and so our project aims to fulfill the want for such an application. The following demos below showcase the app’s main features.
+The following demos below showcase the app’s main features.
 
 ### Demo of Search Bar & Typing:
 
@@ -33,6 +40,18 @@ You can also choose a song from the list of new releases. In addition, you can t
 <p align="center">
     <img src="type-demo2.gif" alt="A user toggles the shorten and censor options in the top-right corner and chooses a newly released song.">
 </p>
+
+## Design Iterations
+
+The backend was developed using Java and fulfilled two main purposes: (1) retrieving the Spotify API data to load a list of newly released songs on the frontend and (2) storing the submissions to the leaderboard in an SQL file. I developed API Handlers to update the frontend with both forms of data.
+
+A new table in the SQL database file is created for each song and is continuously updated with the user’s submissions. Only the 5 top submissions are displayed on the Frontend. The frontend communicates with the backend so that the tables in the database are up to date. On the frontend side of the app, the search bar feature was implemented using the Genius API, which provided us with search query results, song lyrics and song artwork.
+
+There are some trade-offs with the design choices made: if the APIs break, then the application will no longer functional. However, it is not feasible to hold all this information in the backend. In addition, song information needs to be continuously updated with new data.
+
+## Testing
+
+The backend was tested with JUnit tests that targeted the API Handlers. The frontend was tested using Selenium to verify that all features of the app work in conjunction.
      
 ## Setup & Usage
 
@@ -65,16 +84,9 @@ mvn test
 ## Project Status
 Project is: Complete
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+## Conclusion
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+I learned a lot about the software engineering cycle in general and realized how much I enjoyed working with both frontend and backend concurrently.
 
 
 ## Acknowledgements
