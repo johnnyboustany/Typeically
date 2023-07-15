@@ -82,7 +82,7 @@ mvn test
 - No need to download the extension for testing, it is preloaded.
 
 ## Project Status
-Project is: Complete
+Project is: Complete (as of May 2022)
 
 ## Conclusion
 
