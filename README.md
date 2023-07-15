@@ -104,10 +104,4 @@ I learned a lot about the software engineering cycle in general and realized how
 - testing all aspects of the frontend with Selenium
 - helping my group members integrate their parts and making sure merges go smoothly
 
-My group members: 
-
-@coltonrusch
-@mohammedakel
-@JAnagonye
-@glet2024
-@mstephe7
+My group members: @coltonrusch, @mohammedakel, @JAnagonye, @glet2024, @mstephe7
