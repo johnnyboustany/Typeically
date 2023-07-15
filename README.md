@@ -7,7 +7,7 @@ Typeically is a web-based typing app that allows you to find your favorite songs
 * [Features](#features)
 * [Design Iterations](#design-iterations)
 * [Testing](#testing)
-* [Setup & Usage](#setup-&-usage)
+* [Usage Instructions](#usage-instructions)
 * [Project Status](#project-status)
 * [Conclusion](#conclusion)
 * [Acknowledgements](#acknowledgements)
@@ -53,7 +53,7 @@ There are some trade-offs with the design choices made: if the APIs break, then 
 
 The backend was tested with JUnit tests that targeted the API Handlers. The frontend was tested using Selenium to verify that all features of the app work in conjunction.
      
-## Setup & Usage
+## Usage Instructions
 
 ### To run the Typeically program:
     
