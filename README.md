@@ -28,7 +28,8 @@ You can use the search bar to find a song by artist, song name, or lyric content
 
 You can also choose a song from the list of new releases. In addition, you can toggle the song length and censorship of explicit lyrics using the switches at the top-right of the screen. Return back to the song search page by clicking the Typeically header at the top left of the page.
 
-     ![A user toggles the shorten and censor options in the top-right corner and chooses a newly released song.](type-demo2.gif)
+![A user toggles the shorten and censor options in the top-right corner and chooses a newly released song.](type-demo2.gif)
+     
 ## Setup & Usage
 
 ### To run the Typeically program:
