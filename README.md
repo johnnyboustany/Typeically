@@ -3,11 +3,10 @@ Typeically is a web-based typing app that allows you to find your favorite songs
 
 *The web application is no longer live as the course has finished since. However, demos are included below.*
 
-
-<p align="center" height=200>
-    <img src="./assets/typeically.png" alt="">
-    
+<p align="center" height=50>
+    <img src="./assets/typeically.png" alt="">  
 </p>
+
 ## Table of Contents
 * [Technologies Used](#technologies-used)
 * [General Info](#general-info)
