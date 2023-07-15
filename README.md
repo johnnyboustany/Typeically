@@ -30,7 +30,7 @@ The following demos below showcase the app’s main features.
 You can use the search bar to find a song by artist, song name, or lyric content, and hit 'enter' to generate song options. Once you've found the result for the song you wish to type to, click on it and you'll be directed to the typing page. Upon finishing the song, you will receive your typing stats, including words per minute, accuracy and typing duration. You will have the option to submit your score to that song's specific leaderboard! You've got to be quick—only the top 5 completion times are displayed on the leaderboard!
 
 <p align="center">
-    <img src="type-demo.gif" alt="A user searches for a song and types to it, and their typing statistics and place in the leaderboard appear at the end.">
+    <img src="./assets/type-demo.gif" alt="A user searches for a song and types to it, and their typing statistics and place in the leaderboard appear at the end.">
 </p>
 
 ### Demo of New Releases Feature:
@@ -38,7 +38,7 @@ You can use the search bar to find a song by artist, song name, or lyric content
 You can also choose a song from the list of new releases. In addition, you can toggle the song length and censorship of explicit lyrics using the switches at the top-right of the screen. Return back to the song search page by clicking the Typeically header at the top left of the page.
 
 <p align="center">
-    <img src="type-demo2.gif" alt="A user toggles the shorten and censor options in the top-right corner and chooses a newly released song.">
+    <img src="./assets/type-demo2.gif" alt="A user toggles the shorten and censor options in the top-right corner and chooses a newly released song.">
 </p>
 
 ## Design Iterations
