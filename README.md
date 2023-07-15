@@ -1,10 +1,12 @@
 # Typeically
 Typeically is a web-based typing app that allows you to find your favorite songs and type along to the lyrics! I created & developed this app alongside four classmates for my Spring 2022 Software Engineering course.
 
+Alhough the web application is no longer live, demos are included below.
+
 ## Table of Contents
 * [Technologies Used](#technologies-used)
 * [General Info](#general-info)
-* [Features](#features)
+* [Features and Demos](#features-and-demos)
 * [Design Iterations](#design-iterations)
 * [Testing](#testing)
 * [Usage Instructions](#usage-instructions)
@@ -21,7 +23,7 @@ Java, JavaScript, React, SQL
 
 This project aims to provide entertainment in the form of a typing game that allows you to type along to user selected lyrics. There is currently no application that allows users to type along to lyrics of a song that they inputted, and so our project aims to fulfill the want for such an application.
 
-## Features
+## Features and Demos
 
 The following demos below showcase the app’s main features.
 
