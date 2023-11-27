@@ -21,7 +21,7 @@ Typeically is a web-based typing app that allows you to find your favorite songs
 <!-- * [License](#license) -->
 
 ## Technologies Used
-Java, JavaScript, React, SQL, Node.js
+Java, TypeScript, React, SQL, Node.js
 
 ## General Info
 
